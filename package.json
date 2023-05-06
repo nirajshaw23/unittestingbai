@@ -1,0 +1,31 @@
+{
+  "name": "unittestingbai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha 'test-case/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirajshaw23/unittestingbai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirajshaw23/unittestingbai/issues"
+  },
+  "homepage": "https://github.com/nirajshaw23/unittestingbai#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nock": "^13.3.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.4"
+  }
+}
